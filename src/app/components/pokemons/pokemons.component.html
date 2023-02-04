@@ -1,0 +1,16 @@
+<div class="class">
+    <h2>Pokemons:</h2>
+    <ul class="lista">
+        <li *ngFor="let pokemon of pokemons" class="card">
+            <img src="{{pokemon.img}}" style="width: 200px;"><br>
+            <label class="label-card">Nome:</label> {{pokemon.name}}<br>
+            <label class="label-card">Tipo:</label> {{pokemon.type}} <br>
+                <label class="label-card">Ataque:</label> {{pokemon.atack }} <br>
+            <div class="buttonChoose" (click)="choosePokemon(pokemon)">
+                <button class="chooseButton" (click)="choosePokemon(pokemon)">⚪</button><br>
+                <p class="buttonText">{{"Escolher Pokemon Inicial" | uppercase }}</p>
+
+            </div>
+        </li>
+    </ul>
+</div>

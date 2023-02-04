@@ -1,0 +1,53 @@
+.card{
+    border: solid 2px #8b8b8b;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    padding: 10px;
+    margin: 10px;
+    list-style: none;
+}
+
+.lista{
+    display: flex;
+    /* justify-content: center; */
+}
+
+ul li{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.label-card{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.chooseButton{
+    
+    padding: 8px 8px;
+    border: solid 1px #000;
+    border-radius: 20px;
+    background-image: linear-gradient(#ed1d27, #fff);
+
+}
+
+.buttonChoose {
+    border-radius: 20px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f48225 !important;
+    color: #fff;
+    padding: 5px;
+
+}
+
+.buttonChoose:hover{
+    transition-duration: 800ms;
+    background-color: rgba(35, 91, 212, 0.801) !important;
+}
+
+.buttonText{
+    margin: 0px 5px;
+}
